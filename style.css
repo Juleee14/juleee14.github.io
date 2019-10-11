@@ -1,0 +1,21 @@
+p {
+      font-family: Arial;
+      color: blue;
+    }
+h1 {
+  font-family: Courier;
+  color: maroon;
+}
+.big {
+  font-size: 35;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+#Joke_1 {
+  font-family: cursive;
+  color: green
+}
+.publish-time {
+  color: gray;
+}
