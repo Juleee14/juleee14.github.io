@@ -1,9 +1,11 @@
 p {
       font-family: Arial;
       color: blue;
+      text-align: center;
     }
 h1 {
   font-family: Courier;
+  text-align: center;
   color: maroon;
 }
 .big {
