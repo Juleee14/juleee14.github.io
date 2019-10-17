@@ -8,16 +8,13 @@ h1 {
   text-align: center;
   color: maroon;
 }
+.page-title{
+  font-family: 'Muli', sans-serif;
+  text-align:center;
+}
 .big {
   font-size: 35;
 }
 .uppercase {
   text-transform: uppercase;
-}
-#Joke_1 {
-  font-family: cursive;
-  color: green
-}
-.publish-time {
-  color: gray;
 }
