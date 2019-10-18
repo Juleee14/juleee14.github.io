@@ -27,9 +27,3 @@ h1 {
   text-align:center;
   color: white;
 }
-.center_image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
