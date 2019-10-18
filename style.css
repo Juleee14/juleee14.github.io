@@ -33,3 +33,12 @@ h1 {
   margin-right: auto;
   width: 50%;
 }
+.shadow {
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+.round_corners {
+  border-radius:13px;
+}
