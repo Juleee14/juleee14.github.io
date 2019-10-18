@@ -74,3 +74,13 @@ body {
   transition: margin-left .5s;
   padding: 16px;
 }
+
+@media(max-width:768px){.clearfix-xs:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+}
