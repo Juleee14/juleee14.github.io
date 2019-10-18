@@ -22,6 +22,9 @@ h1 {
 .black_container {
   background-color: black;
 }
+.black_jumbotron {
+  background-color: black;
+}
 .white {
   font-family: 'Ubuntu', sans-serif;
   text-align:center;
