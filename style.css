@@ -46,7 +46,6 @@ h1 {
     height: 100%;
 }
 .zoom {
-  padding: 20px;
   transition: transform .2s;
   width: 200px;
   height: 200px;
