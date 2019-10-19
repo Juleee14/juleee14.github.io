@@ -86,10 +86,10 @@
         </a>
       </div>
       <div class="col-sm-6 col-lg-3 zoom h-80">
-        <span onClick="mailto()">
+        <a href="mailto:j.koehler@hu-berlin.de" target="_blank" class="btn btn-primary">
           <img width="70"; height="70"; src="/juleee14.github.io/Email.png" class="center_image"/>
           <p class="white">E-Mail</p>
-        </span>
+        </a>
       </div>
       <div class="col-sm-6 col-lg-3 zoom h-80">
         <a href="#" target="_blank">
@@ -103,10 +103,6 @@
 
   <!--<script src="./main.js"></script>-->
   <script language=javascript>
-    function mailto(){
-      window.open('mailto:j.koehler@hu-berlin.de');
-    }
-
     (function($) {
       $('a[href^=mailto]').each(function() {
         var href = $(this).attr('href');
