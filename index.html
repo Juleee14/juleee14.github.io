@@ -86,7 +86,7 @@
         </a>
       </div>
       <div class="col-sm-6 col-lg-3 zoom h-80">
-        <span onClick="mailto('j.koehler@hu-berlin.de')">
+        <span onClick="mailto()">
           <img width="70"; height="70"; src="/juleee14.github.io/Email.png" class="center_image"/>
           <p class="white">E-Mail</p>
         </span>
@@ -103,7 +103,9 @@
 
   <!--<script src="./main.js"></script>-->
   <script language=javascript>
-    function mailto(addr){}
+    function mailto(){
+      window.open('mailto:j.koehler@hu-berlin.de');
+    }
 
     (function($) {
       $('a[href^=mailto]').each(function() {
