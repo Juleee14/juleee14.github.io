@@ -11,7 +11,8 @@ h1 {
 .page-title{
   font-family: 'Muli', sans-serif;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 30px;
+  text-shadow: 2px 2px #ff0000;
   text-align:center;
   color: black;
 }
