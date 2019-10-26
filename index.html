@@ -192,7 +192,7 @@
                 <div class="content">
                   <div class="main">
                     <h4 style="text-align: center;">iConference 2019</h4>
-                    <p class="location">Washington D. C.</p>
+                    <p class="location">Washington D. C. | USA</p>
                   </div>
                   <div class="footer">
                     <button class="btn btn-simple" onclick="rotateCard(this)">
@@ -231,65 +231,47 @@
 
         <div class="col-sm-5">
 
-          <!-- Rotating card -->
-          <div class="card-wrapper manual-flip">
-            <div id="card-2" class="card card-rotating text-center">
-
-              <!--Front Side-->
-              <div class="face front">
-
-                <!-- Image-->
-                <div class="view overlay">
-                  <img class="card-img-top" src="/juleee14.github.io/Leipzig_Konferenz_2019.jpg" alt="A photo of the conference center in Leipzig">
-                  <a>
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
+          <div class="card-container manual-flip">
+            <div class="card">
+              <div class="front">
+                <div class="cover">
+                  <img src="/juleee14.github.io/Leipzig_Konferenz_2019.jpg"/>
                 </div>
-
-                <!--Content-->
-                <div class="card-body">
-
-                  <a class="rotate-btn float-right" data-card="card-2"><i class="fas fa-share-alt fa-lg"></i></a>
-                  <h4 class="mb-3">7. Bibliothekskongress Leipzig 2019</h4>
-                  <p class="card-text">Leipzig</p>
-                  <button class="btn btn-simple" onclick="rotateCard(this)">
-                    <i class="fa fa-mail-forward"></i> Click for more information about the presentation
-                  </button>
-                  <!--<a class="link-text">
-                    <h5>More information about the presentation<i class="fas fa-angle-double-right"></i></h5>
-                  </a>-->
-
+                <div class="content">
+                  <div class="main">
+                    <h4 style="text-align: center;">7. Bibliothekskongress 2019</h4>
+                    <p class="location">Leipzig | Germany</p>
+                  </div>
+                  <div class="footer">
+                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                      <i class="fa fa-mail-forward"></i> Click for more information about the presentation
+                    </button>
+                  </div>
                 </div>
+              </div> <!-- end front panel -->
+              <div class="back">
+                <div class="header">
+                  <h5 class="motto">7. Bibliothekskongress 2019 | Leipzig</h5>
+                </div>
+                <div class="content">
+                  <div class="main">
+                    <p class="text-center">
+                      <i>Öffentliche Bibliothek 2030: Vom Portal zur Plattform für demokratische Teilhabe.</i><br>
+                      Presentation with Dr. Petra Hauke and Deborah Wallers,
+                      7. Bibliothekskongress Leipzig 2019 (18. – 21.03.2019) during the session
+                      TK 1: Politisch sein‘, Leipzig, Deutschland.
+                    </p>
 
-              </div>
-              <!--Front Side-->
-
-              <!--Back Side-->
-              <div class="face back">
-
-                <!-- Content -->
-                <div class="content text-center">
-
-                  <h4 class="card-title font-weight-bold my-4">7. Bibliothekskongress Leipzig 2019 <i class="fas fa-times rotate-btn text-muted" data-card="card-2"></i></h4>
-                  <hr>
-                  <p>
-                    <i>Öffentliche Bibliothek 2030: Vom Portal zur Plattform für demokratische Teilhabe.</i><br>
-                    Presentation with Dr. Petra Hauke and Deborah Wallers,
-                    7. Bibliothekskongress Leipzig 2019 (18. – 21.03.2019) during the session
-                    'TK 1: Politisch sein‘, Leipzig, Deutschland.
-                  </p>
+                  </div>
+                </div>
+                <div class="footer">
                   <button class="btn btn-simple" rel="tooltip" title="Flip Card" onclick="rotateCard(this)">
                     <i class="fa fa-reply"></i> Back
                   </button>
-
                 </div>
-
-              </div>
-              <!--Back Side-->
-
-            </div>
-          </div>
-          <!-- Rotating card -->
+              </div> <!-- end back panel -->
+            </div> <!-- end card -->
+          </div> <!-- end card-container -->
 
         </div>
 
