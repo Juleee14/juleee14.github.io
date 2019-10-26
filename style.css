@@ -10,6 +10,10 @@ h1 {
   color: maroon;
 }
 
+hr {
+  color: black;
+}
+
 .page-title {
   font-family: 'Muli', sans-serif;
   font-weight: bold;
