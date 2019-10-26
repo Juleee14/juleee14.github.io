@@ -229,6 +229,7 @@ h1 {
 }
 
 .card .content .main {
+  margin-top: 6px;
   min-height: 20px;
 }
 
