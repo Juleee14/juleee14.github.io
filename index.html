@@ -497,7 +497,28 @@
         </div>
       </div>
 
-      <form id="contact-form" method="post" action="contact.php" role="form">
+      <form id="contact-form" action="https://formspree.io/xlernagz" method="POST">
+        <label for"fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Enter Your First Name" />
+        <!--Last Name Field-->
+        <label for"lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Enter Your Last Name" />
+        <!--Email Field-->
+        <label for"email">Email Address</label>
+        <input type="text" id="email" name="_replyto" placeholder="Enter Your Email Address" />
+        <!--honeypot-->
+        <div class="hpot">
+          <label>Leave this field empty: <input name="_gotcha"></label>
+        </div>
+        <!--Message Field-->
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Enter Your Message" style="height: 300px"></textarea>
+        <!--Submit Button-->
+        <input type="submit" value="Submit">
+
+      </form>
+
+      <!--<form id="contact-form" method="post" action="contact.php" role="form">
 
         <div class="messages"></div>
 
@@ -546,7 +567,7 @@
             </div>
           </div>
         </div>
-      </form>
+      </form>-->
 
     </div>
   </div>
