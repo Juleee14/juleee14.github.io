@@ -78,7 +78,12 @@ hr {
   /* Safari 3-8 */
   transform: scale(1.2);
 }
-
+.navbar, .navbar-expand-lg, .navbar-dark, .bg-dark, .sticky-top {
+  background-color: #989898;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
 /* entire container, keeps perspective */
 .card-container {
   -webkit-perspective: 800px;
