@@ -522,31 +522,33 @@
 
       <div class="row">
         <form id="contact-form" action="https://formspree.io/xlernagz" method="POST">
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <h4>First Name</h4>
             <!--<label for"fname">First Name</label>-->
-            <input type="text" id="fname" name="firstname" placeholder="Enter Your First Name" style="width: 450px;"/>
+            <input class="contact_shadow" type="text" id="fname" name="firstname" placeholder="Enter Your First Name" style="width: 450px; border-radius: 18px;"/>
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <h4>Last Name</h4>
             <!--<label for"lname">Last Name</label>-->
-            <input type="text" id="lname" name="lastname" placeholder="Enter Your Last Name" style="width: 450px;"/>
+            <input class="contact_shadow" type="text" id="lname" name="lastname" placeholder="Enter Your Last Name" style="width: 450px; border-radius: 18px;"/>
           </div>
           <!--Email Field-->
-          <div class="col-md-12">
+          <div class="col-sm-12">
             <h4>Email Address</h4>
             <!--<label for"email">Email Address</label>-->
-            <input type="text" id="email" name="_replyto" placeholder="Enter Your Email Address" style="width: 450px;"/>
+            <input class="contact_shadow" type="text" id="email" name="_replyto" placeholder="Enter Your Email Address" style="width: 450px; border-radius: 18px;"/>
           </div>
           <!--Message Field-->
-          <div class="col-md-12">
+          <div class="col-sm-12">
             <h4>Message<h4>
             <!--<label for="message">Message</label>-->
-            <textarea id="message" name="message" placeholder="Enter Your Message" style="height: 300px; width: 100%;"></textarea>
+            <textarea id="message" name="message" placeholder="Enter Your Message" style="height: 300px; width: 100%; border-radius: 18px;"></textarea>
           </div>
-          <input type="text" name="_gotcha" style="display:none" />
+          <input class="contact_shadow" type="text" name="_gotcha" style="display: none;" />
           <!--Submit Button-->
-          <input type="submit" value="Submit">
+          <div class="col-sm-12">
+            <input type="submit" value="Submit" style="border-radius: 18px;">
+          </div>
         </form>
       </div>
     </div>
