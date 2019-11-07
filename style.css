@@ -173,7 +173,7 @@ hr {
 }
 
 .card .cover {
-  height: 290px;
+  height: 60vh;
   overflow: hidden;
   border-radius: 4px 4px 0 0;
 }
