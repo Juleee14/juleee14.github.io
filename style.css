@@ -91,6 +91,8 @@ hr {
   -o-perspective: 800px;
   perspective: 800px;
   margin-bottom: 30px;
+  max-width: 523px;
+  min-width: 0px;
 }
 
 /* flip the pane when hovered */
@@ -121,6 +123,8 @@ hr {
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
   position: relative;
+  border-style: hidden;
+  border-width: 5px;
 }
 
 /* hide back of pane during swap */
@@ -156,11 +160,11 @@ hr {
   bottom: 4px;
 }
 
-/*        Style       */
 .card {
   background: none repeat scroll 0 0 #FFFFFF;
   border-radius: 4px;
   color: #444444;
+  height:100%;
 }
 
 .card-container, .front, .back {
@@ -201,11 +205,13 @@ hr {
   background-color: rgba(0, 0, 0, 0);
   box-shadow: none;
   /*padding: 10px 20px 20px;*/
+  height:25%;
 }
 
 .card .content .main {
-  margin-top: 6px;
-  min-height: 20px;
+  /*margin-top: 6px;
+  min-height: 20px;*/
+  height:66%;
 }
 
 .card .back .content .main {
@@ -230,15 +236,16 @@ hr {
 .card .location {
   color: black;
   text-align: center;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
 }
 
 .card .footer {
   border-top: 1px solid #EEEEEE;
   color: #999999;
-  margin: 30px 0 0;
-  padding: 10px 0 0;
+  /*margin: 30px 0 0;
+  padding: 10px 0 0;*/
   text-align: center;
+  height:34%;
 }
 
 .card .footer .social-links {
@@ -250,7 +257,7 @@ hr {
 }
 
 .card .footer .btn-simple {
-  margin-top: -12px;
+  /*margin-top: -12px;*/
   margin-bottom: 3px;
 }
 
@@ -298,4 +305,10 @@ hr {
 
 .card .stats p {
   color: #777777;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
