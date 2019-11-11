@@ -211,6 +211,7 @@ hr {
 .card .content .main {
   /*margin-top: 6px;
   min-height: 20px;*/
+  font-size: 3vw;
   height: 66%;
 }
 
